@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Sample Book",
+    "author": "Oscar",
+    "publisher": "mlab",
+    "publishedDate": "2023-09-25",
+    "isbn": "12345"
+  },
+  {
+    "title": "Sample Book",
+    "author": "Oscar",
+    "publisher": "mlab",
+    "publishedDate": "2023-09-25",
+    "isbn": "123456"
+  },
+  {
+    "title": "Sample Book",
+    "author": "Oscar",
+    "publisher": "mlab",
+    "publishedDate": "2023-09-25",
+    "isbn": "123457"
+  }
+]
