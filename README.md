@@ -71,74 +71,23 @@ The API will be available at `http://localhost:3000`
 
 #### Get All Books
 ```http
-GET /api/books
-```
-
-Response:
-```json
-{
-  "status": "success",
-  "data": {
-    "books": [
-      {
-        "isbn": "978-0123456789",
-        "title": "The Great Novel",
-        "author": "John Doe",
-        "price": 29.99,
-        "category": "Fiction"
-      }
-    ]
-  }
-}
+GET /books
 ```
 
 #### Create New Book
 ```http
-POST /api/books
+POST /books
 Content-Type: application/json
 
 {
-  "isbn": "978-0123456789",
-  "title": "The Great Novel",
-  "author": "John Doe",
-  "price": 29.99,
-  "category": "Fiction"
+  "title": "New Book",
+  "author": "Oscar",
+  "publisher": "mlab",
+  "publishedDate": "2023-09-15",
+  "isbn": "1234543434343434"
 }
 ```
 
-Response:
-```json
-{
-  "status": "success",
-  "message": "Book created successfully",
-  "data": {
-    "book": {
-      "isbn": "978-0123456789",
-      "title": "The Great Novel",
-      "author": "John Doe",
-      "price": 29.99,
-      "category": "Fiction"
-    }
-  }
-}
-```
-
-## 🔒 Error Handling
-
-The API implements comprehensive error handling:
-
-```javascript
-{
-  "status": "error",
-  "code": "VALIDATION_ERROR",
-  "message": "Invalid input data",
-  "details": [
-    {
-      "field": "isbn",
-      "message": "ISBN must be a valid ISBN-13 format"
-    }
-  ]
-}
 ```
 
 ## ⚡ Performance
@@ -157,13 +106,11 @@ Books are stored in `data/books.json` with the following structure:
 {
   "books": [
     {
-      "isbn": "978-0123456789",
-      "title": "The Great Novel",
-      "author": "John Doe",
-      "price": 29.99,
-      "category": "Fiction",
-      "createdAt": "2025-01-20T10:00:00Z",
-      "updatedAt": "2025-01-20T10:00:00Z"
+      "title": "New Book",
+      "author": "Oscar",
+      "publisher": "mlab",
+      "publishedDate": "2023-09-15",
+      "isbn": "1234543434343434"
     }
   ]
 }

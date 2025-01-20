@@ -1,23 +1,9 @@
 [
   {
-    "title": "Sample Book",
+    "title": "New Book",
     "author": "Oscar",
     "publisher": "mlab",
-    "publishedDate": "2023-09-25",
-    "isbn": "12345"
-  },
-  {
-    "title": "Sample Book",
-    "author": "Oscar",
-    "publisher": "mlab",
-    "publishedDate": "2023-09-25",
-    "isbn": "123456"
-  },
-  {
-    "title": "Sample Book",
-    "author": "Oscar",
-    "publisher": "mlab",
-    "publishedDate": "2023-09-25",
-    "isbn": "123457"
+    "publishedDate": "2023-09-15",
+    "isbn": "1234543434343434"
   }
 ]
