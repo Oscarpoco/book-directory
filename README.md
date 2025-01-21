@@ -44,7 +44,7 @@ A robust RESTful API built with Node.js for managing a book directory. This API 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/oscarpoco/book-directory-api.git
+git clone https://github.com/oscarpoco/book-directory.git
 cd book-directory
 ```
 
